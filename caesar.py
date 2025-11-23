@@ -19,7 +19,7 @@ def get_mode():
         if m in ("encrypt", "e"):
             return "encrypt"
         if m in ("decrypt", "d"):
-            return "decrypt"
+            return "decrypt "
         print("Please type 'encrypt' or 'decrypt' (or e/d).")
 
 
